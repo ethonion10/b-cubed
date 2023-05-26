@@ -18,7 +18,7 @@
     resize();
 
      var domain = window.location.hostname.split('.');
-     if (BCubed.loadGame || (domain[domain.length-2] === 'github' && domain[domain.length-1] === 'com')){
+     if (BCubed.loadGame || (domain[domain.length-2] === 'github' && domain[domain.length-1] === 'io')){
          BCubed.loadGame = true;
          loading.classList.add('bcubed-visible');
      } else if (BCubed.loadGame || (domain[domain.length-2] === 'coolmath-games' && domain[domain.length-1] === 'com')){
